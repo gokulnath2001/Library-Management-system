@@ -1,0 +1,51 @@
+bookID,title,authors
+1001,Engineering Dynamics: A Comprehensive Introduction,"N. Jeremy Kasdin, Derek A. Paley"
+1002,Heat Transfer,"Anthony F. Mills, Carlos F. M. Coimbra"
+1003,Introduction to Solid Mechanics, Irving Herman Shames
+1004,Mastering SolidWorks,Matt Lombard
+1005,Fundamentals of Thermodynamics,"Claus Borgnakke, Richard E Sonntag"
+1006,T-SQL Fundamentals,Itzik Ben-Gan
+1007,"Java: The Complete Reference, Eleventh Edition",Herbert Schildt
+1007,Introduction to Python for Engineers and Scientists: Open Source Solutions for Numerical Computation,Sandeep Nagar
+1009,Machine Learning for Hackers,"John Myles White, Drew Conway"
+1010,Data Structures and Algorithms in Java,Michael T. Goodrich and Roberto Tamassia
+1011,Fundamentals of wireless communication,David Tse
+1012,The 8051 Microcontroller and Embedded Systems: Using Assembly and C,Muhammad Ali Mazidi
+1013,Operational Amplifiers With Linear Integrated Circuits, William D. Stanley
+1014,Fundamentals of microelectronics,Behzad Razavi
+1015,The Art of Electronics,"Paul Horowitz, Winfield Hill"
+1016,"Architectural Detailing: Function, Constructibility, Aesthetics"," Patrick Rand, Edward Allen"
+1017,World Architecture: The Masterworks,Will Pryce
+1018,Architects' Data,Ernst Neufert
+1019,Geotechnical Engineering: Principles and Practices,Donald P Coduto
+1020,The Elements of Statistical Learning,"Trevor Hastie, Robert Tibshirani, Jerome H. Friedman"
+1021,Differential Equations for Engineers: The Essentials,David V. Kalbaugh
+1022,"Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares"," Lieven Vandenberghe, Stephen P. Boyd"
+1023,Higher engineering mathematics, J. Bird
+1024,An introduction to probability theory and its applications,William Feller
+1025,Discrete Mathematics and Its Applications: With Combinatorics and Graph Theory,Kenneth H. Rosen
+1026,The Principles of Quantum Mechanics,Paul Dirac
+1027,Modern physics for engineers,Jasprit Singh
+1028,General Chemistry for Engineers," Jeffrey S. Gaffney, Nancy A. Marley"
+1029,Introduction to Biomedical Engineering," John Enderle, Joseph D. Bronzino, Susan M. Blanchard"
+1030,"Biofluid Mechanics: An Introduction to Fluid Mechanics, Macrocirculation, and Microcirculation","Wei Yin, Mary D. Frame, David Rubenstein"
+1031,The Unfolding of Language,Guy Deutscher
+1032,"In the Land of Invented Languages: Esperanto Rock Stars, Klingon Poets, Loglan Lovers, and the Mad Dreamers Who Tried to Build A Perfect Language",Arika Okrent
+1033,"How to Lead: Wisdom from the World's Greatest CEOs, Founders, and Game Changers",David M. Rubenstein
+1034,Sapiens: A Brief History of Humankind, Yuval Noah Harari
+1035,The Industrial Revolution: A History from Beginning to End,Hourly History
+1036,Finance: Theory and Practice,Anne Marie Ward
+1037,Introduction to Criminology: Why Do They Do It?,"Pamela J. Schram, Stephen G. Tibbetts"
+1038,"Thinking, Fast and Slow",Daniel Kahneman
+1039,Mindhunter: Inside the FBI's Elite Serial Crime Unit," John E. Douglas, Mark Olshaker"
+1040,Suicide,Émile Durkheim
+1041,When Breath Becomes Air,Paul Kalanithi
+1042,The Communist Manifesto,"Karl Marx, Friedrich Engels"
+1043,The Girl with the Dragon Tattoo,Stieg Larsson
+1044,Angels and Demons,Dan Brown
+1045,A Promised Land,Barack Obama
+1046,I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban,"Malala Yousafzai, Christina Lamb"
+1047,The Great Gatsby,F. Scott Fitzgerald
+1048,A Random Walk Down Wall Street: Including a Life-Cycle Guide to Personal Investing,Burton Malkiel
+1049,The Wolf of Wall Street,Jordan Belfort
+1050,"Internet of Things for Architects: Architecting IoT Solutions by Implementing Sensors, Communication Infrastructure, Edge Computing, Analytics, and Security",Perry Lea

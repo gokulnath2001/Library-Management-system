@@ -1,0 +1,8 @@
+<%- include("partials/header"); -%>
+    <div class="center">
+        <h2>Book Successfully Returned</h2>
+        <p>Book name: <%= deleteBook %> </p>
+        <% var b = "/student/dashboard/" + username %> 
+        <button class="btn btn-dark" onclick="document.location='<%= b%>'">Return to Dashboard</button>
+    </div>
+<%- include('partials/footer') %>

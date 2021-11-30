@@ -1,0 +1,90 @@
+<%- include("partials/header"); -%>
+<script>
+    
+</script>
+<div class="jumbotron centered">
+    <div class="container">
+      <!-- <i class="fas fa-key fa-6x"></i> -->
+      
+      <h1 class="display-3">Hello <%= username %>  <img src="/images/fit.png" alt="" class="img1"></h1>
+      <p class="lead">Your Dashboard💥 </p>
+      
+      <hr>
+      <!-- <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+      <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a> -->
+  
+    </div>
+</div>
+<div class="container" >
+    <div class="row  gy-5" >
+        <div class="col-sm-3 b">
+            <div class="card text-white bg-secondary mb-3">
+                <div class="card-body">
+                  <img src="/images/bookshelf.png" class="card-img-top" alt="HEY" >
+                  <h5 class="card-title">Number of books borrowed</h5>
+                  <p class="card-text "> <%= fit %></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3 b">
+          <div class="card text-white bg-secondary mb-3">
+              <div class="card-body">
+                <img src="/images/fine.png" class="card-img-top" alt="HEY" >
+                <h5 class="card-title">Total fine</h5>
+                <p class="card-text "> <%= fine %> Rs</p>
+              </div>
+            </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row  gy-5" >
+      <div class="col-sm-3 b">
+        <% var a= "/student/borrow/" + username; %>
+        <button class="btn btn-dark" onclick="document.location='<%= a%>'">BORROW BOOK</button>
+      </div>
+      
+  </div>
+    <br>
+    <h3>Borrowed Books</h3><br>
+    <table class="table table-warning table-hover table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Book</th>
+          <th scope="col">Author</th>
+          <th scope="col">Date of issue</th>
+          <th scope="col">Date of Return</th>
+          <th scope="col">Late fee</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% var a = 0; %>
+        <% var b = "/student/return/" + username %> 
+        <form action="/student/return" method="POST">
+          <input type="hidden" id="custId" name="username" value="<%= username %>">
+          <span id="user" style="display: none"></span>
+        <%founduser.forEach(element => { %>
+          <% a=a+1; %> 
+          <tr>
+          <th scope="row"><%= a %> </th>
+          <td><%= element.title %></td>
+          <td><%= element.author %></td>
+          <td><span id="date"><%= element.date.toDateString() %></span></td>
+          <td><%= element.datereturn.toDateString() %></td>
+          <td><%= list[a-1]%></td>  
+          <td><button type="submit" class="btn btn-dark" name="title" value="<%= element.title %>">Return</button></td>
+          </tr>
+        <%}); %>
+        </form>
+      </tbody>
+    </table>
+    <p>* A fine of Rs 10/day will be charged after 15 days of issue</p>
+    <button class="btn btn-danger" onclick="document.location='/'" style="float: right;">Sign out</button>
+    <br><br><br>
+</div>
+
+
+
+
+<%- include('partials/footer') %>

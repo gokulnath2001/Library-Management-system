@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<h2>List of books</h2><hr><br>
+<table class="table table-warning table-hover table-striped">
+    <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col" style="width: -10%;">Book</th>
+          <th scope="col">Author</th>
+        </tr>
+      </thead>
+      <tbody>
+          
+          
+          <% var a =0; %> 
+        <%founduser.forEach(element => { %>
+          <% a=a+1; %> 
+          <tr>
+          <th scope="row"><%= a %> </th>
+          <td><%= element.title %></td>
+          <td><%= element.authors %></td>
+          </tr>
+          <% }); %>
+      </tbody>
+</table>
+<%- include('partials/footer') %>
